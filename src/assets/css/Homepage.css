@@ -1,0 +1,54 @@
+.homepage {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position:fixed;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .navbar-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.5em;
+  }
+  
